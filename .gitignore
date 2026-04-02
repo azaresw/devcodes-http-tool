@@ -1,7 +1,7 @@
 node_modules/
-dist/
 bot/
 site/
+.github/
 *.log
 .DS_Store
 .env

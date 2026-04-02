@@ -1,0 +1,32 @@
+import { DevCodesClient, create } from "./client";
+import { DevCodesError } from "./types";
+export type { Method, RequestConfig, Response, DevCodesError, Interceptor, InterceptorManager, } from "./types";
+export { DevCodesClient };
+export { InterceptorManagerImpl } from "./interceptors";
+export { sleep } from "./utils";
+export declare const version = "1.0.0";
+export declare const packageName = "devcodes-http-tool";
+export declare function isDevCodesError(error: unknown): error is DevCodesError;
+export declare const get: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const post: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const put: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const patch: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const delete_: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const head: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const options: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export declare const request: <T = unknown>(config: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+export { create };
+declare const _default: {
+    create: typeof create;
+    get: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    post: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    put: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    patch: <T = unknown>(url: string, data?: unknown, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    delete: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    head: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    options: <T = unknown>(url: string, config?: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    request: <T = unknown>(config: import("./types").RequestConfig) => Promise<import("./types").Response<T>>;
+    isDevCodesError: typeof isDevCodesError;
+};
+export default _default;
+//# sourceMappingURL=index.d.ts.map
