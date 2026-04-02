@@ -1,6 +1,6 @@
 {
   "name": "devcodes-http-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "devcodes-http-tool — A fast, modern HTTP client for Node.js and browsers. Built by Dev Codes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -50,4 +50,3 @@
     "url": "https://github.com/azaresw/devcodes-http-tool.git"
   }
 }
-
