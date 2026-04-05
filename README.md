@@ -275,6 +275,10 @@ MIT
 
 Contributions welcome! Please submit pull requests or issues on GitHub.
 
+## 💬 Support
+
+Join our Discord for help and updates: [discord.gg/ESh2Dp2xX9](https://discord.gg/ESh2Dp2xX9)
+
 ---
 
 Built with ❤️ by the DevCodes team
