@@ -19,7 +19,7 @@ DevCodes is a modern, TypeScript-first HTTP client designed to replace Axios wit
 ## 📦 Installation
 
 ```bash
-npm install devcodes
+npm install devcodes-http-tool
 ```
 
 ## 🚀 Quick Start
@@ -27,7 +27,7 @@ npm install devcodes
 ### Basic Usage
 
 ```typescript
-import devcodes from 'devcodes';
+import devcodes from 'devcodes-http-tool';
 
 // GET request
 const response = await devcodes.get('/api/users');
@@ -51,7 +51,7 @@ const data = await devcodes.request({
 ### Create Instance
 
 ```typescript
-import { create } from 'devcodes';
+import { create } from 'devcodes-http-tool';
 
 const client = create({
   baseURL: 'https://api.example.com',
@@ -149,7 +149,7 @@ interface Response<T> {
 Modify requests before they're sent:
 
 ```typescript
-import { create } from 'devcodes';
+import { create } from 'devcodes-http-tool';
 
 const client = create();
 
