@@ -1,6 +1,6 @@
 {
   "name": "devcodes-http-tool",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "devcodes-http-tool — A fast, modern HTTP client for Node.js and browsers. Built by Dev Codes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -48,13 +48,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/azaresw/devcodes-http-tool.git"
-  },
-  "bugs": {
-    "url": "https://github.com/azaresw/devcodes-http-tool/issues",
-    "discord": "https://discord.gg/ESh2Dp2xX9"
-  },
-  "funding": {
-    "type": "discord",
-    "url": "https://discord.gg/ESh2Dp2xX9"
   }
 }
