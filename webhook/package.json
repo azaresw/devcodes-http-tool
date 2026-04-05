@@ -1,0 +1,42 @@
+{
+  "name": "devcodes-webhook",
+  "version": "1.0.0",
+  "description": "Send Discord and Slack webhooks with a simple, typed API. Built on devcodes-http-tool.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "webhook",
+    "discord",
+    "slack",
+    "discord-webhook",
+    "slack-webhook",
+    "embed",
+    "notification",
+    "devcodes",
+    "typescript"
+  ],
+  "author": "Dev Codes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azaresw/devcodes-webhook.git"
+  },
+  "dependencies": {
+    "devcodes-http-tool": "^1.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
